@@ -44,7 +44,7 @@ with open('ip.txt', 'w') as file:
         soup = BeautifulSoup(html_content, 'html.parser')
 
         # === 针对 https://ip.164746.xyz 的新抓取规则 ===
-        if url == 'https://ip.164746.xyz':
+        if url == 'https://cf.090227.xyz':
             try:
                 # 查找class为 'centered' 的 div 容器
                 table_container = soup.find('div', class_='centered')
