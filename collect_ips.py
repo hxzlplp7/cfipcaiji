@@ -5,7 +5,7 @@ import os
 
 # 目标URL列表
 # 这里的urls列表只包含 https://ip.164746.xyz，因为它指定了新的抓取规则
-urls = ['https://ip.164746.xyz']
+urls = ['cf.090227.xyz']
 
 # 正则表达式用于匹配IP地址
 ip_pattern = r'\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}'
